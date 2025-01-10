@@ -1,0 +1,147 @@
+/**
+*   CUSTOM ICON BUTTON 
+*/
+.custom__dashicon:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+    transition: 400ms;
+}
+
+.custom__dashicon:hover i {
+    color: var(--kt-primary) !important;
+    transition: 400ms;
+}
+
+.custom__dashicon {
+    padding: 8px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.custom__dashicon i {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+*   CUSTOM ICON BUTTON 
+*/
+
+.font-weight-bold {
+    font-weight: 600 !important;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.icon-link {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.icon-link:hover {
+    color: var(--kt-primary);
+}
+
+.text-link {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.text-link:hover {
+    color: var(--kt-primary);
+}
+
+.custom-scroller::-webkit-scrollbar {
+    width: 3px;
+    height: 4px;
+    background: transparent;
+}
+
+.custom-scroller::-webkit-scrollbar-track {
+    border-radius: 8px;
+}
+
+.custom-scroller::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 12px;
+}
+
+.error-message {
+    text-transform: lowercase;
+    /* Convert text to sentence case */
+}
+
+.error-message::first-letter {
+    text-transform: capitalize;
+}
+
+.online-icon {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #99ca55;
+    /* Default color for offline */
+    transition: background-color 0.2s ease;
+    /* Smooth color transition */
+}
+
+.tip {
+    padding: 8px 16px;
+    background-color: var(--kt-light);
+    border-radius: 4px;
+    border-left: 5px solid var(--kt-primary);
+}
+
+.tooltip_bg_color {
+    background: var(--kt-text-muted);
+}
+
+.hint-class {
+    color: var(--kt-gray-700);
+}
+
+
+
+/**
+*   ******    ELEMENT PLUS COMPONENTS STYLES MODIFICATIONS  ******
+*/
+.el-drawer__header {
+    margin-bottom: 0 !important;
+    padding: 5px;
+}
+
+.el-drawer__body {
+    padding: 0px !important;
+}
+
+.swal2-container {
+    z-index: 900000 !important;
+}
+
+.el-dialog__body {
+    max-height: 500px;
+    overflow: auto;
+}
+
+/* .el-step__line{
+    position: absolute;
+    border-color: inherit;
+    background-color: var(--kt-primary);
+}
+
+.el-step__item.is-active + .el-step__line{
+    background-color: var(--kt-primary); 
+} */
+
+/**
+*   ******    APEXCHART COMPONENTS STYLES MODIFICATIONS  ******
+*/
+
+.apexcharts-tooltip-title {
+    max-width: 300px;
+    text-wrap: auto;
+}

@@ -1,0 +1,36 @@
+.auth__intro {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 1.4rem;
+}
+.auth__intro p {
+  font-size: 1.2rem;
+}
+.auth__intro-heading img {
+  height: 70px;
+  padding-right: 15px;
+}
+.auth__intro-heading {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.auth__intro-heading-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.auth__intro-heading-text h1 {
+  font-size: 2rem;
+}
+.auth__intro-heading-text .subtitle {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.auth__intro-heading-text .title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}

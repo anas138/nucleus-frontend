@@ -1,0 +1,35 @@
+export interface INokiaTXNAlart {
+  id: number;
+  nokia_alarm_id: number;
+  category: string;
+  event_time: string;
+  severity: string;
+  alarm_name: string;
+  alarm_type: string;
+  probable_cause: string;
+  additional_text: string;
+  affected_object: string;
+  affected_object_name: string;
+  affected_object_type: string;
+  ne_name: string;
+  ne_ip_address: string;
+  frequency: number;
+  number_of_occurances: number;
+  first_time_detected: string;
+  source_type: string;
+  impact: number;
+  last_time_detected: string;
+  service_affecting: string | null;
+  region_id: string | null;
+  record_status: string;
+  created_on: string | null;
+  cleared_on: string | null;
+  ne_nokia_id: number;
+  nokia_txn_last_modified: string | null;
+  alarm_filter_config_id: number;
+  is_cleared: boolean;
+  created_at: string;
+  updated_at: string;
+  nokiaTxnNetworkElement: any;
+  troubleTicket: any;
+}
